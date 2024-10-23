@@ -130,14 +130,14 @@ export const Login = () => {
       <h1>Rating match</h1>
       <div className="formContainer">
         <form action="">
-          <div className="inputContainer">
+          {/* <div className="inputContainer">
             <label htmlFor="Email">Email</label>
             <input type="email" name="Email" id="email" />
           </div>
           <div className="inputContainer">
             <label htmlFor="pass">Contraseña</label>
             <input type="password" name="pass" id="pass" />
-          </div>
+          </div> */}
           <div className="inputContainer">
             <Link href="/inicio">
               <button type="submit">Sign In</button>
