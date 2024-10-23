@@ -4,9 +4,9 @@ import Footer from "@/components/Footer";
 import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-import estadio from "../../assets/estadio.jpg";
+import estadio from "../../../assets/estadio.jpg";
 import Link from "next/link";
-import arrowL from "../../assets/arrowL.svg";
+import arrowL from "../../../assets/arrowL.svg";
 
 const WrapperPartidos = styled.section`
   display: flex;
