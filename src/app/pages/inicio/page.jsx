@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import estadio from "../../assets/estadio.jpg";
+import estadio from "../../../assets/estadio.jpg";
 import styled from "styled-components";
 import Footer from "@/components/Footer";
 import Link from "next/link";
-import arrowR from "../../assets/arrowR.svg";
+import arrowR from "../../../assets/arrowR.svg";
 
 const WrapperInicio = styled.section`
   display: flex;

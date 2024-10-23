@@ -3,9 +3,9 @@
 import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-import estadio from "../../../assets/estadio.jpg";
-import icon from "../../../assets/homeIcon.svg";
-import arrowL from "../../../assets/arrowL.svg";
+import estadio from "../../../../assets/estadio.jpg";
+import icon from "../../../../assets/homeIcon.svg";
+import arrowL from "../../../../assets/arrowL.svg";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 
