@@ -124,7 +124,7 @@ export const WrapperLogin = styled.section`
   }
 `;
 
-export const Login = () => {
+const Login = () => {
   return (
     <WrapperLogin>
       <h1>Rating match</h1>
@@ -155,3 +155,5 @@ export const Login = () => {
     </WrapperLogin>
   );
 };
+
+export default Login;
