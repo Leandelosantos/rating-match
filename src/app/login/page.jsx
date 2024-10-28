@@ -132,7 +132,7 @@ const Login = () => {
         <form action="">
           <div className="inputContainer">
             <label htmlFor="Email">Email</label>
-            <input type="email" name="Email" id="email" />
+            <input type="email" name="Email" id="Email" />
           </div>
           <div className="inputContainer">
             <label htmlFor="pass">Contraseña</label>
