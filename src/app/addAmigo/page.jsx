@@ -4,6 +4,12 @@ import Footer from "@/app/footer/page";
 import React from "react";
 import styled from "styled-components";
 
+const Wrapper = styled.section`
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: 1fr auto;
+`;
+
 const WrapperAddAmigo = styled.section`
   display: flex;
   flex-flow: column nowrap;
@@ -85,7 +91,7 @@ const WrapperAddAmigo = styled.section`
 
 const addAmigo = () => {
   return (
-    <>
+    <Wrapper>
       <WrapperAddAmigo>
         <div className="titleContainer">
           <h2>Agregar Amigo</h2>
@@ -121,7 +127,7 @@ const addAmigo = () => {
         </div>
       </WrapperAddAmigo>
       <Footer />
-    </>
+    </Wrapper>
   );
 };
 export default addAmigo;

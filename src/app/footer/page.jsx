@@ -15,7 +15,7 @@ const WrapperFooter = styled.footer`
   flex-flow: row nowrap;
   font-size: 18px;
   gap: 10px;
-  width: 100%;
+  width: auto;
   color: #cbcbcb;
   font-weight: 600;
   background-color: rgba(255, 255, 255, 0.1);
@@ -23,9 +23,8 @@ const WrapperFooter = styled.footer`
   /* height: 110px; */
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
-  position: fixed;
-  bottom: 0;
-  margin-top: 10%;
+  /* position: fixed;
+  bottom: 0; */
 
   .inicio {
     display: flex;

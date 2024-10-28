@@ -7,10 +7,17 @@ import Link from "next/link";
 import arrowR from "../../assets/arrowR.svg";
 import Footer from "@/app/footer/page";
 
-const WrapperInicio = styled.section`
+const Wrapper = styled.section`
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: 1fr auto;
+`;
+
+const WrapperInicio = styled.div`
   display: flex;
   flex-flow: column nowrap;
   gap: 30px;
+  overflow: auto;
   margin: 15% 3%;
 
   .bienvenidoJugador {
@@ -95,7 +102,7 @@ const WrapperInicio = styled.section`
 
 const Inicio = () => {
   return (
-    <>
+    <Wrapper>
       <WrapperInicio>
         <div className="bienvenidoJugador">
           <h2>Bienvenido ´Jugador´</h2>
@@ -123,7 +130,7 @@ const Inicio = () => {
         </div>
       </WrapperInicio>
       <Footer />
-    </>
+    </Wrapper>
   );
 };
 

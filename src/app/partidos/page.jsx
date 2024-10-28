@@ -8,7 +8,13 @@ import estadio from "../../assets/estadio.jpg";
 import Link from "next/link";
 import arrowL from "../../assets/arrowL.svg";
 
-const WrapperPartidos = styled.section`
+const Wrapper = styled.section`
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: 1fr auto;
+`;
+
+const WrapperPartidos = styled.div`
   display: flex;
   flex-flow: column nowrap;
   color: #cbcbcb;
@@ -61,7 +67,7 @@ const WrapperPartidos = styled.section`
 
 const partidos = () => {
   return (
-    <>
+    <Wrapper>
       <WrapperPartidos>
         <div className="misPartidosTitle">
           <Link href="/inicio">
@@ -122,7 +128,7 @@ const partidos = () => {
         </div>
       </WrapperPartidos>
       <Footer />
-    </>
+    </Wrapper>
   );
 };
 

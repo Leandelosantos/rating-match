@@ -9,7 +9,13 @@ import arrowL from "../../../assets/arrowL.svg";
 import Footer from "@/app/footer/page";
 import Link from "next/link";
 
-const WrapperPartido = styled.section`
+const Wrapper = styled.section`
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: 1fr auto;
+`;
+
+const WrapperPartido = styled.div`
   display: flex;
   flex-flow: column nowrap;
   color: #cbcbcb;
@@ -80,7 +86,7 @@ const WrapperPartido = styled.section`
 
 const partido = () => {
   return (
-    <>
+    <Wrapper>
       <WrapperPartido>
         <div className="misPartidosTitle">
           <Link href="/partidos">
@@ -104,7 +110,7 @@ const partido = () => {
         </div>
       </WrapperPartido>
       <Footer />
-    </>
+    </Wrapper>
   );
 };
 
