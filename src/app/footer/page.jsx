@@ -3,9 +3,9 @@
 import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
-import homeIcon from "../assets/homeIcon.svg";
-import ballIcon from "../assets/ballIcon.svg";
-import friendIcon from "../assets/friendIcon.svg";
+import homeIcon from "../../assets/homeIcon.svg";
+import ballIcon from "../../assets/ballIcon.svg";
+import friendIcon from "../../assets/friendIcon.svg";
 import Link from "next/link";
 
 const WrapperFooter = styled.footer`
