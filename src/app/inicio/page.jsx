@@ -115,7 +115,7 @@ const Inicio = () => {
             </div>
           </Link>
           <Image src={estadio} alt="ej" width={640} height={247} />
-          <p>Negro 3 - 2 Blanco</p>
+          <p>Último partido: Negro 3 - 2 Blanco</p>
           <p>10/10/2024</p>
         </div>
         <div className="listaAmigos">

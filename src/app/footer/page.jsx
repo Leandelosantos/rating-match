@@ -11,7 +11,7 @@ import Link from "next/link";
 const WrapperFooter = styled.footer`
   display: flex;
   justify-content: space-around;
-  /* align-items: baseline; */
+  align-items: baseline;
   flex-flow: row nowrap;
   font-size: 18px;
   gap: 10px;
@@ -20,7 +20,7 @@ const WrapperFooter = styled.footer`
   font-weight: 600;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
-  /* height: 110px; */
+  height: 110px;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   /* position: fixed;
@@ -77,8 +77,10 @@ const Footer = () => {
         </Link>
       </div>
       <div className="crearPartido">
-        <Image src={ballIcon} alt="home" width={50} heigth={50} />
-        <p>Crear Partido</p>
+        <Link href="/createPartido">
+          <Image src={ballIcon} alt="home" width={50} heigth={50} />
+          <p>Crear Partido</p>
+        </Link>
       </div>
       <div className="agregarAmigo">
         <Link href="/addAmigo">
