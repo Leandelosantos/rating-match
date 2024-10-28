@@ -6,7 +6,7 @@ import styled from "styled-components";
 import estadio from "../../../assets/estadio.jpg";
 import icon from "../../../assets/homeIcon.svg";
 import arrowL from "../../../assets/arrowL.svg";
-import Footer from "@/components/Footer";
+import Footer from "@/app/footer/page";
 import Link from "next/link";
 
 const WrapperPartido = styled.section`

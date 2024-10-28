@@ -3,9 +3,9 @@ import Image from "next/image";
 import React from "react";
 import estadio from "../../assets/estadio.jpg";
 import styled from "styled-components";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import arrowR from "../../assets/arrowR.svg";
+import Footer from "@/app/footer/page";
 
 const WrapperInicio = styled.section`
   display: flex;

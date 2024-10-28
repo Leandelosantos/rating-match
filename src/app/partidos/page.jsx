@@ -1,6 +1,6 @@
 "use client";
 
-import Footer from "@/components/Footer";
+import Footer from "@/app/footer/page";
 import Image from "next/image";
 import React from "react";
 import styled from "styled-components";
